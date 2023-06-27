@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  height: auto;
+  border: solid 2px red;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.pokemons {
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  border: solid 2px red;
+}

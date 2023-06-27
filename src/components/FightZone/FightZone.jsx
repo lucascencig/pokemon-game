@@ -1,5 +1,6 @@
 import Points from "../Puntajes/Points"
 import SelectTypes from "../SelectTypes/SelectTypes"
+import GetAllPokemons from "../pokemons/Pokemons"
 import s from '../../styles/fightzone.module.css'
 import agua from '../../assets/agua.jpg'
 import fuego from '../../assets/fuego.jpg'
@@ -58,6 +59,11 @@ export default function FightZone() {
       <div>
         <SelectTypes />
       </div>
+
+      <div>
+        <GetAllPokemons />
+      </div>
+
 
     </div>
   )

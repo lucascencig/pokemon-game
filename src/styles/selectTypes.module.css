@@ -54,3 +54,11 @@
   color: black;
   font-weight: 700;
 }
+
+.typesSelected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+}
